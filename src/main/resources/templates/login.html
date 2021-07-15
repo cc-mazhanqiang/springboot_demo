@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="dist/css/zui.css"/>
+    <!-- ZUI Javascript 依赖 jQuery -->
+    <script src="dist/lib/jquery/jquery.js"></script>
+    <!-- ZUI 标准版压缩后的 JavaScript 文件 -->
+    <script src="dist/zui/js/zui.js"></script>
+
+</head>
+<body background="img/c.jpg" style="background-size: 100%;">
+
+<div style="width: 400px;margin-left: 800px;margin-top: 180px;">
+    <div class="panel">
+        <div class="panel-heading">
+            登录
+        </div>
+        <div class="panel-body">
+            <form action="/doLogin" method="post">
+                <div class="with-padding">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="icon icon-user"></i>账号</span>
+                        <input type="text" name="username" class="form-control" placeholder="请输入账号"/>
+                    </div>
+                </div>
+
+                <div class="with-padding">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="icon icon-key"></i>密码</span>
+                        <input type="password" name="password" class="form-control" placeholder="请输入密码"/>
+                    </div>
+                </div>
+
+                <div class="with-padding">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="icon icon-coffee"></i>验证码</span>
+                        <input type="text" class="form-control" placeholder="请输入验证码" style="width: 130px;"/>
+                        <img src="img/a.jpeg" class="form-control" style="width: 130px;">
+                    </div>
+                </div>
+
+                <div class="with-padding">
+                    <button class="btn btn-block btn-info" type="submit">登录</button>
+                </div>
+
+                <div class="with-padding">
+                    <button class="btn btn-block btn-danger" type="button">注册</button>
+                </div>
+                <div class="with-padding">
+
+                    <span style="color: red" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></span>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

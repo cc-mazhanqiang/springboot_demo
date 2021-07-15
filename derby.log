@@ -1,0 +1,48 @@
+----------------------------------------------------------------
+Mon Jun 28 11:17:34 CST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-017a-509f-4918-000015901898 
+on database directory memory:D:\Spring\Springboot_Demo\2837c6c6-5548-4ee1-aaa8-ad121276f10a with class loader sun.misc.Launcher$ExtClassLoader@2a098129 
+Loaded from file:/E:/JDK1.8/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_102-b14
+user.dir=D:\Spring\Springboot_Demo
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Jun 28 11:17:43 CST 2021:
+Shutting down instance a816c00e-017a-509f-4918-000015901898 on database directory memory:D:\Spring\Springboot_Demo\2837c6c6-5548-4ee1-aaa8-ad121276f10a with class loader sun.misc.Launcher$ExtClassLoader@2a098129 
+----------------------------------------------------------------
+Mon Jun 28 11:17:44 CST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance 176240b2-017a-509f-4918-000015901898 
+on database directory memory:D:\Spring\Springboot_Demo\2b086ee6-8eef-4fb1-ada8-cbe9ba211a3e with class loader sun.misc.Launcher$ExtClassLoader@2a098129 
+Loaded from file:/E:/JDK1.8/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_102-b14
+user.dir=D:\Spring\Springboot_Demo
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Jun 28 11:17:45 CST 2021:
+Shutting down instance 176240b2-017a-509f-4918-000015901898 on database directory memory:D:\Spring\Springboot_Demo\2b086ee6-8eef-4fb1-ada8-cbe9ba211a3e with class loader sun.misc.Launcher$ExtClassLoader@2a098129 
+----------------------------------------------------------------
+Mon Jun 28 11:17:46 CST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a0f1c156-017a-509f-4918-000015901898 
+on database directory memory:D:\Spring\Springboot_Demo\66d69d45-bf26-4146-9f8a-a415b9e8c548 with class loader sun.misc.Launcher$ExtClassLoader@2a098129 
+Loaded from file:/E:/JDK1.8/jre/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_102-b14
+user.dir=D:\Spring\Springboot_Demo
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Jun 28 11:17:51 CST 2021:
+Shutting down instance a0f1c156-017a-509f-4918-000015901898 on database directory memory:D:\Spring\Springboot_Demo\66d69d45-bf26-4146-9f8a-a415b9e8c548 with class loader sun.misc.Launcher$ExtClassLoader@2a098129 
